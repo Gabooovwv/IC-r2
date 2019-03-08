@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+#root {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin: 0;
+}
+#root > header {
+  width: 100vw;
+  height: 40px;
+  background-color: bisque;
+}
+#root > main {
+  display: flex;
+  background-color: blueviolet;
+  height: 100%;
+}
+#root > main > nav {
+  width: 150px;
+  background-color: aqua;
+  height: 100%;
+}
